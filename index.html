@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="width=device-width, initial-scale=1.0">
+	<title>Sahana Moogi</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+  <style>
+  .sec3{
+        width: 100%;
+        background-color: rgba(74, 150, 185, 0.534);
+        min-width: 600px;
+        overflow: hidden;
+        display: flex;
+      }
+
+  .row {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      padding: 0 4px;
+      width: 100%;
+      min-width: 600px;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+        /* Create four equal columns that sits next to each other */
+  .column {
+      -ms-flex: 33.33%; /* IE10 */
+      flex: 33.33%;
+      min-width: 33.33%;
+      padding: 0 4px;
+      float: left;
+      box-sizing: border-box;
+    }
+  
+  .bottom-img{margin-bottom: 8px;}
+
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+    .extra {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    }
+  }
+
+  .highlght {
+    position: relative;
+  }
+
+  .highlights{
+      background-color: black;
+      padding-left: 50px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      width: 100%;
+      box-sizing: border-box;
+      mid-width: 600px;
+  }
+
+  .highlightimg {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 8px;
+    vertical-align: middle;
+    position: relative;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+  }
+
+  .highlght:hover .overlay {
+    opacity: 0.5;
+  }
+
+  .overtext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  </style>
+</head>
+
+<body>
+	<header>
+		<a href = "index.html"><img class= "logo" src = "images/lakey.jpg"></a>
+		<h2 class = "headertext">SAHANA MOOGI</h2>
+    <button class= "top button" onclick="window.location.href = 'blog.html'">BLOG</button>
+  </header>
+
+  <nav class = "navigation">
+      <a class = "menu-item" style= "margin-left: 30px;" href = "index.html">Home</a>
+      <a class = "menu-item" href = "volunteer.html">Volunteering</a>
+      <a class = "menu-item" href = "lifestyle.html">Travel</a>
+      <a class = "menu-item" href = "projects.html">Projects</a>
+      <a class = "menu-item" href = "about.html">About</a>
+  </nav>
+
+  <div class="sec1">
+    <div class="display-middle" style="white-space:nowrap;">
+      <span class="center-page-text">WELCOME</span>
+    </div>
+  </div>
+
+<h1 class = "title highlights">PHOTO GALLERY</h1>
+<div class="sec3"> 
+  <div class = "row">
+    <div class="column">
+      <div class="highlght">
+        <img src="images/streetlight.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Benton St</br>12.12.19</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/citylights.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Christmas in the Park</br>12.25.19</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/longroad.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Oakland</br>12.28.19</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/brickstreet.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Oakland</br>12.28.19</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/hallway.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">School Hallway</br>12.3.19</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/buildings.jpg" class = "highlightimg bottom-img">
+        <div class="overlay">
+          <div class="overtext">Downtown San Jose</br>12.25.19</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column extra">
+      <div class="highlght">
+        <img src="images/boots.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Fall</br>12.3.19</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/stroll.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Night Stroll</br>1.4.20</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/falltrees.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Neighborhood Fall</br>12.7.19</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/wintertree.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Winter</br>12.22.19</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/creek.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Central Park Creek</br>12.20.19</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/blurredroad.jpg" class = "highlightimg bottom-img">
+        <div class="overlay">
+          <div class="overtext">Traffic Lights</br>9.22.20</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="highlght">
+        <img src="images/leavesinsun.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Leaves & Sky</br>12.10.19</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/paleskyride.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Highway</br>1.12.20</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/crosswalk.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Oakland</br>12.28.19</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/highfence.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Bike Ride</br>1.2.20</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/trainfie.jpg" class="highlightimg">
+        <div class="overlay">
+          <div class="overtext">Train Station</br>12.28.19</div>
+        </div>
+      </div>
+      <div class="highlght">
+        <img src="images/walkhome.jpg" class = "highlightimg bottom-img">
+        <div class="overlay">
+          <div class="overtext">Walk Home</br>11.14.19</div>
+        </div>
+      </div>
+    </div> 
+
+  </div>
+</div>
+  
+  <footer>
+    <div class= "footerinfo">
+      <a class = "link" href="mailto:havingfunwithdiy@gmail.com">Contact</a>
+      <h3>© Sahana 2020</h3>
+    </div>
+  </footer>
+   
+</body>
+</html>

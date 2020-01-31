@@ -1,0 +1,307 @@
+
+* {
+		margin: 0;
+    padding: 0;
+    font-family: Alata;
+	}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.logo {
+			float: left;
+			width: 70px;
+      border-radius: 50%;
+      margin-top: 25px;
+      margin-left: 40px;
+      margin-right: 35px
+		}
+
+.headertext {
+			padding-top: 37px;
+			color: black;
+			letter-spacing: 10px;
+		}
+
+header {
+			width: 100%;
+			background-color: white;
+			height: 120px;
+			min-width: 600px;
+      position: fixed;
+      overflow: auto;
+      z-index: 1;
+    }
+
+.navigation {
+      background-color: black;
+      width: 100%;
+      min-width: 600px;
+      padding: 10px;
+      position: fixed;
+      margin-top: 120px;
+      z-index: 1;
+    }
+
+.menu-item{
+      text-decoration: none;
+      color: white;
+      padding: 13px;
+      transition-duration: .3s;
+    }
+
+.menu-item:hover{
+      background-color: white;
+      color: rgb(17, 137, 192);
+      transition-duration: .3s;
+    }
+
+.sec1 {
+			background-attachment: fixed;
+			background-position: bottom;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			min-width: 600px;
+			background-image: url("images/oaklandlights.jpg");
+			min-height: 100%;
+			opacity: 90%;
+      padding-top: 120px;
+		}
+
+
+.center-page-text {
+			letter-spacing: 10px;
+			text-align: center;
+			padding: 20px;
+			background-color: black;
+			color: white;
+			font-size: 24px;
+		}
+
+.display-middle {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+.button {
+			background-color: white;
+			border: 2px rgb(17, 137, 192) solid;
+			color: rgb(17, 137, 192);
+			padding: 15px 40px;
+			text-align: center;
+			font-size: 16px;
+			transition-duration: .5s;
+		}
+
+.top{
+      position: absolute;
+      right: 30px;
+      top: 35px;
+    }
+
+.button:hover {
+			background-color: rgb(17, 137, 192);
+			transition-duration: .5s;
+			color: white;
+		}
+
+.sec2 {
+			background-color: white;
+			min-width: 600px;
+			color: black;
+			width: 100%;
+      overflow-x: hidden;
+		}
+
+.under-title {
+			padding-top: 20px;
+			padding-bottom: 40px;
+		}
+
+.col {
+			flex: 60%;
+			font-size: 18px;
+    }
+
+@media screen and (max-width: 600px) {
+  .col {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.sec2all {
+			display: flex;
+			padding-top: 100px;
+			padding-bottom: 95px;
+			padding-left: 15%;
+			padding-right: 15%;
+			max-width: 800px;
+			margin: auto;
+
+		}
+
+.img1 {
+			padding: 60px;
+      padding-top: 40px;
+			height: 280px;
+			float: left;
+		}
+
+.link, .link2 {
+			text-decoration: none;
+			color: rgb(17, 137, 192);
+			font-size: 18px;
+			transition-duration: .3s;
+		}
+
+.link:hover {
+			transition-duration: .3s;
+			color: black;
+		}
+
+.link2:hover {
+			transition-duration: .3s;
+			color: white;
+		}
+
+.volunteer-exp{
+      padding: 40px;
+      background-color: rgba(74, 150, 185, 0.534);
+			min-width: 600px;
+      width: 100%;
+      height: auto;
+      box-sizing: border-box;
+    }
+
+  .project-content {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      overflow: hidden;
+    }
+        /* Create four equal columns that sits next to each other */
+  .project-info {
+      float: left;
+      box-sizing: border-box;
+      padding-bottom: 0;
+    }
+  
+  p.project-info {
+    float: left;
+    max-width: 60%;
+    flex: 60%;
+  }
+
+  @media screen and (max-width: 100px) {
+    .project-info {
+      width: 100%;
+      }
+  }
+
+  .project-info img{
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    flex: 30%;
+    display: relative;
+  }
+
+  .project-intro{
+    padding: 40px;
+    background-color: white;
+    height: auto;
+    padding-top: 220px;
+    color: black;
+  }
+
+.sec6 {
+      width: 100%;
+      min-width: 600px;
+      padding-top: 60px;
+      padding-bottom: 60px;
+      background-color: rgba(74, 150, 185, 0.534);
+      box-sizing: border-box;
+    }
+
+.sec6all {
+      background-color: black;
+      padding: 40px;
+      margin: auto;
+      color: white;
+      width: 75%;
+    }
+
+footer {
+			background-color: white;
+      height: 50px;
+      width: 100%;
+      min-width: 600px;
+		}
+
+.footerinfo{
+      padding: 10%;
+    }
+
+.title{
+      padding-bottom: 20px;
+      color: rgb(17, 137, 192);
+      letter-spacing: 5px;
+    }
+
+.impact-title{
+      color: black;
+      letter-spacing: 5px;
+      position: absolute;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      top: 50px;
+      text-align: center;
+    }
+
+.the-planet{
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      left: 30%;
+      right: 65%;
+      top: 43%;
+    }
+
+.center-text{
+      text-align: center;
+      padding: 10px;
+      padding-left: 25%;
+      padding-right: 25%;
+    }
+
+.about{
+      background-color: white;
+      width: 100%;
+      min-width: 600px;
+    }
+
+img.profile-pic {
+      width: 150px;
+      margin-bottom: 50px;
+      border-radius: 50%;
+    }
+
+.the-creator{
+      text-align: center;
+      margin-bottom: 300px;
+      margin-top: 50px;
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+    }

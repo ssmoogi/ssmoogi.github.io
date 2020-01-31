@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="width=device-width, initial-scale=1.0">
+	<title>Blog</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+      height: 100%;
+      overflow: hidden;
+      padding-top: 190px;
+      position: fixed;
+      left: -80px;
+      transition: 0.3s;
+      width: 100px;
+      box-sizing: border-box;
+      padding-bottom: 40px;
+    }
+
+    ul:hover {
+      left: 0;
+      transition-duration: .3s;
+    }
+
+    li a {
+      display: block;
+      color: black;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #555;
+      color: black;
+    }  
+  </style>
+</head>
+
+<body>
+	<header>
+		<a href = "index.html"><img class= "logo" src = "images/lakey.jpg"></a>
+		<h2 class = "headertext">SAHANA MOOGI</h2>
+    <button class= "top button" onclick="window.location.href = 'blog.html'">BLOG</button>
+  </header>
+
+  <nav class = "navigation">
+      <a class = "menu-item" style= "margin-left: 30px;" href = "index.html">Home</a>
+      <a class = "menu-item" href = "volunteer.html">Volunteering</a>
+      <a class = "menu-item" href = "lifestyle.html">Travel</a>
+      <a class = "menu-item" href = "projects.html">Projects</a>
+      <a class = "menu-item" href = "about.html">About</a>
+  </nav>
+
+  <ul>
+    <li><a href="#Jan-15-2020">Recent</a></li>
+    <li><a href="#Jan-15-2020">Jan 15, 2020</a></li>
+    <li><a href="#Jan-13-2020">Jan 13, 2020</a></li>
+    <li><a href="#Jan-10-2020">Jan 10, 2020</a></li>
+  </ul>
+
+  <div class="sec6" id = "Jan-15-2020" style = "padding-top: 220px;">
+    <div class = "sec6all">
+      <h1 class = "title">1/15/2020</h1>
+      <p>Blog post #3! This is just here as yet another placeholder, but will soon be filled :)
+      </p>
+    </div>
+  </div>
+
+  <!--<div class="sec6" id = "Jan-15-2020">
+    <div class = "sec6all">
+      <h1 class = "title">1/15/2020</h1>
+      <p>Blog post #3! This is just here as yet another placeholder, but will soon be filled :)
+      </p>
+    </div>
+  </div>-->
+
+  <div class="sec6" id = "Jan-13-2020" style = "background-color: white;">
+    <div class = "sec6all">
+      <h1 class = "title">1/13/2020</h1>
+      <p>Blog post #2! This is just here as a placeholder, but come back soon :)
+      </p>
+    </div>
+  </div>
+
+  <div class="sec6" id = "Jan-10-2020">
+    <div class = "sec6all">
+      <h1 class = "title">1/10/2020</h1>
+      <p>Happy New Year! This is my first ever blog post on this site. Check out the rest of my website to see what I've been up to, and stay tuned for more!
+      </p>
+    </div>
+  </div>
+  
+  <footer>
+    <div class= "footerinfo">
+      <a class = "link" href="mailto:havingfunwithdiy@gmail.com">Contact</a>
+      <h3>© Sahana 2020</h3>
+    </div>
+  </footer>
+   
+</body>
+</html>
